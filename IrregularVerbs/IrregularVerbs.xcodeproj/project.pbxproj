@@ -8,18 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		0F2ACC1F29F1BA8000342D69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC1E29F1BA8000342D69 /* AppDelegate.swift */; };
-		0F2ACC2329F1BA8000342D69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC2229F1BA8000342D69 /* ViewController.swift */; };
+		0F2ACC2329F1BA8000342D69 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC2229F1BA8000342D69 /* HomeViewController.swift */; };
 		0F2ACC2829F1BA8100342D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2ACC2729F1BA8100342D69 /* Assets.xcassets */; };
 		0F2ACC2B29F1BA8100342D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2ACC2929F1BA8100342D69 /* LaunchScreen.storyboard */; };
+		0F2ACC3329F1BF2500342D69 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC3229F1BF2500342D69 /* String+Ex.swift */; };
+		0F2ACC3929F1BF9400342D69 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F2ACC3B29F1BF9400342D69 /* Localizable.strings */; };
+		0F2ACC3E29F1C7C600342D69 /* SelectVerbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC3D29F1C7C600342D69 /* SelectVerbsViewController.swift */; };
+		0F2ACC4029F1C84E00342D69 /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC3F29F1C84E00342D69 /* TrainViewController.swift */; };
+		0F2ACC4529F27A0F00342D69 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2ACC4429F27A0F00342D69 /* SnapKit */; };
+		0F2ACC4729F27BED00342D69 /* SelectVerbTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC4629F27BED00342D69 /* SelectVerbTableViewCell.swift */; };
+		0F2ACC4929F2865400342D69 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC4829F2865400342D69 /* UIView+Ex.swift */; };
+		0F2ACC4B29F2872D00342D69 /* UIStackView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC4A29F2872D00342D69 /* UIStackView+Ex.swift */; };
+		0F2ACC5529F2CEAD00342D69 /* Verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC5329F2CEAD00342D69 /* Verb.swift */; };
+		0F2ACC5629F2CEAD00342D69 /* IrregularVerbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ACC5429F2CEAD00342D69 /* IrregularVerbs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F2ACC1B29F1BA8000342D69 /* IrregularVerbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrregularVerbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2ACC1E29F1BA8000342D69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F2ACC2229F1BA8000342D69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F2ACC2229F1BA8000342D69 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0F2ACC2729F1BA8100342D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F2ACC2A29F1BA8100342D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F2ACC2C29F1BA8100342D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2ACC3229F1BF2500342D69 /* String+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ex.swift"; sourceTree = "<group>"; };
+		0F2ACC3A29F1BF9400342D69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0F2ACC3C29F1BFA400342D69 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0F2ACC3D29F1C7C600342D69 /* SelectVerbsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVerbsViewController.swift; sourceTree = "<group>"; };
+		0F2ACC3F29F1C84E00342D69 /* TrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
+		0F2ACC4629F27BED00342D69 /* SelectVerbTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVerbTableViewCell.swift; sourceTree = "<group>"; };
+		0F2ACC4829F2865400342D69 /* UIView+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ex.swift"; sourceTree = "<group>"; };
+		0F2ACC4A29F2872D00342D69 /* UIStackView+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Ex.swift"; sourceTree = "<group>"; };
+		0F2ACC5329F2CEAD00342D69 /* Verb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verb.swift; sourceTree = "<group>"; };
+		0F2ACC5429F2CEAD00342D69 /* IrregularVerbs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IrregularVerbs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2ACC4529F27A0F00342D69 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,12 +74,85 @@
 			isa = PBXGroup;
 			children = (
 				0F2ACC1E29F1BA8000342D69 /* AppDelegate.swift */,
-				0F2ACC2229F1BA8000342D69 /* ViewController.swift */,
+				0F2ACC3629F1BF4600342D69 /* Home */,
+				0F2ACC4129F1C86600342D69 /* Select */,
+				0F2ACC4229F1C87800342D69 /* Train */,
+				0F2ACC3429F1BF2A00342D69 /* Extensions */,
 				0F2ACC2729F1BA8100342D69 /* Assets.xcassets */,
+				0F2ACC3B29F1BF9400342D69 /* Localizable.strings */,
 				0F2ACC2929F1BA8100342D69 /* LaunchScreen.storyboard */,
 				0F2ACC2C29F1BA8100342D69 /* Info.plist */,
 			);
 			path = IrregularVerbs;
+			sourceTree = "<group>";
+		};
+		0F2ACC3429F1BF2A00342D69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0F2ACC3229F1BF2500342D69 /* String+Ex.swift */,
+				0F2ACC4829F2865400342D69 /* UIView+Ex.swift */,
+				0F2ACC4A29F2872D00342D69 /* UIStackView+Ex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0F2ACC3529F1BF3600342D69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F2ACC2229F1BA8000342D69 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F2ACC3629F1BF4600342D69 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0F2ACC3529F1BF3600342D69 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0F2ACC4129F1C86600342D69 /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				0F2ACC5229F2CE6600342D69 /* Model */,
+				0F2ACC4D29F28A0900342D69 /* Controller */,
+				0F2ACC4C29F289F300342D69 /* View */,
+			);
+			path = Select;
+			sourceTree = "<group>";
+		};
+		0F2ACC4229F1C87800342D69 /* Train */ = {
+			isa = PBXGroup;
+			children = (
+				0F2ACC3F29F1C84E00342D69 /* TrainViewController.swift */,
+			);
+			path = Train;
+			sourceTree = "<group>";
+		};
+		0F2ACC4C29F289F300342D69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F2ACC4629F27BED00342D69 /* SelectVerbTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F2ACC4D29F28A0900342D69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F2ACC3D29F1C7C600342D69 /* SelectVerbsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F2ACC5229F2CE6600342D69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F2ACC5429F2CEAD00342D69 /* IrregularVerbs.swift */,
+				0F2ACC5329F2CEAD00342D69 /* Verb.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +171,9 @@
 			dependencies = (
 			);
 			name = IrregularVerbs;
+			packageProductDependencies = (
+				0F2ACC4429F27A0F00342D69 /* SnapKit */,
+			);
 			productName = IrregularVerbs;
 			productReference = 0F2ACC1B29F1BA8000342D69 /* IrregularVerbs.app */;
 			productType = "com.apple.product-type.application";
@@ -103,8 +200,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 0F2ACC1229F1BA8000342D69;
+			packageReferences = (
+				0F2ACC4329F27A0F00342D69 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 0F2ACC1C29F1BA8000342D69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -120,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F2ACC2B29F1BA8100342D69 /* LaunchScreen.storyboard in Resources */,
+				0F2ACC3929F1BF9400342D69 /* Localizable.strings in Resources */,
 				0F2ACC2829F1BA8100342D69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,8 +233,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F2ACC2329F1BA8000342D69 /* ViewController.swift in Sources */,
+				0F2ACC4729F27BED00342D69 /* SelectVerbTableViewCell.swift in Sources */,
+				0F2ACC3329F1BF2500342D69 /* String+Ex.swift in Sources */,
+				0F2ACC5629F2CEAD00342D69 /* IrregularVerbs.swift in Sources */,
+				0F2ACC2329F1BA8000342D69 /* HomeViewController.swift in Sources */,
+				0F2ACC4029F1C84E00342D69 /* TrainViewController.swift in Sources */,
 				0F2ACC1F29F1BA8000342D69 /* AppDelegate.swift in Sources */,
+				0F2ACC3E29F1C7C600342D69 /* SelectVerbsViewController.swift in Sources */,
+				0F2ACC4B29F2872D00342D69 /* UIStackView+Ex.swift in Sources */,
+				0F2ACC4929F2865400342D69 /* UIView+Ex.swift in Sources */,
+				0F2ACC5529F2CEAD00342D69 /* Verb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +257,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		0F2ACC3B29F1BF9400342D69 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F2ACC3A29F1BF9400342D69 /* en */,
+				0F2ACC3C29F1BFA400342D69 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -154,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -214,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -344,6 +465,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F2ACC4329F27A0F00342D69 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F2ACC4429F27A0F00342D69 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2ACC4329F27A0F00342D69 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0F2ACC1329F1BA8000342D69 /* Project object */;
 }
