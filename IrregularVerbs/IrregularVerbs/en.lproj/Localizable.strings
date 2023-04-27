@@ -9,3 +9,22 @@
 "Select verbs" = "Select verbs";
 "Train verbs" = "Train verbs";
 
+"arise" = "arise";
+"awake" = "awake";
+"be" = "be";
+"bear" = "bear";
+"beat" = "beat";
+"become" = "become";
+"begin" = "begin";
+"bend" = "bend";
+"bet" = "bet";
+"bind" = "bind";
+"bite" = "bite";
+
+"Check" = "Check";
+"Skip" = "Skip";
+"Try again" = "Try again";
+"score: %d" = "score: %d";
+
+"Congratulations!" = "Congratulations!";
+"Number of points: %d" = "Number of points: %d";
