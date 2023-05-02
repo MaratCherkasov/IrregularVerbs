@@ -7,15 +7,25 @@
 
 import UIKit
 
-class IrregularVerbs {
-    private(set) var verbs: [Verb] = []
+final class IrregularVerbs {
+    
+    // Singleton
+    static var shared = IrregularVerbs()
+    private init() {
+        configureVerbs()
+    }
+    
+    // MARK: - Properties
     var selectedVerbs: [Verb] = []
     
-    func configureVerbs() {
+    private(set) var verbs: [Verb] = []
+    
+    // MARK: - Methods
+    private func configureVerbs() {
         verbs = [
             Verb(infinitive: "arise", pastSimple: "arose", participle: "arisen"),
             Verb(infinitive: "awake", pastSimple: "awoke", participle: "awoken"),
-            Verb(infinitive: "be", pastSimple: "was(were)", participle: "been"),
+            Verb(infinitive: "be", pastSimple: "was", participle: "been"),
             Verb(infinitive: "bear", pastSimple: "bore", participle: "born"),
             Verb(infinitive: "beat", pastSimple: "beat", participle: "beaten"),
             Verb(infinitive: "become", pastSimple: "became", participle: "become"),
@@ -25,5 +35,7 @@ class IrregularVerbs {
             Verb(infinitive: "bind", pastSimple: "bound", participle: "bound"),
             Verb(infinitive: "bite", pastSimple: "bit", participle: "bitten")
         ]
+        
+        selectedVerbs = verbs
     }
 }

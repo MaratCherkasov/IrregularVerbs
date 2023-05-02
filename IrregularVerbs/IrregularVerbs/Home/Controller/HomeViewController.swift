@@ -23,10 +23,7 @@ class HomeViewController: UIViewController {
        let button = UIButton()
         
         button.setTitle("Select verbs".localized, for: .normal)
-        button.setTitleColor(UIColor.black, for: .normal)
-        button.backgroundColor = .systemGray5
-        button.layer.cornerRadius = cornerRadius
-        button.translatesAutoresizingMaskIntoConstraints = false
+        configureButtons(button: button)
         button.addTarget(self, action: #selector(goToSelectViewController),
                          for: .touchUpInside)
         
@@ -37,10 +34,7 @@ class HomeViewController: UIViewController {
        let button = UIButton()
         
         button.setTitle("Train verbs".localized, for: .normal)
-        button.setTitleColor(UIColor.black, for: .normal)
-        button.backgroundColor = .systemGray5
-        button.layer.cornerRadius = cornerRadius
-        button.translatesAutoresizingMaskIntoConstraints = false
+        configureButtons(button: button)
         button.addTarget(self, action: #selector(goToTrainViewController),
                          for: .touchUpInside)
         
@@ -80,6 +74,18 @@ class HomeViewController: UIViewController {
         view.backgroundColor = .white
         
         setupConstraints()
+    }
+    
+    private func configureButtons(button: UIButton) {
+        button.setTitleColor(UIColor.black, for: .normal)
+        button.backgroundColor = .systemGray5
+        button.layer.cornerRadius = cornerRadius
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.layer.shadowColor = UIColor.darkGray.cgColor
+        button.layer.shadowOffset = CGSize(width: 1, height: 3)
+        button.layer.shadowOpacity = 0.3
+        button.layer.cornerRadius = cornerRadius
+        button.layer.shadowRadius = 2
     }
     
     private func setupConstraints() {
